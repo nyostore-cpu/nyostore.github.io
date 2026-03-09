@@ -310,34 +310,34 @@
             <div class="product-item">
                 <img src="https://cdn.discordapp.com/attachments/1209446718287122496/1479342745708400690/Picsart_26-03-06_09-11-55-513.jpg?ex=69abb0cb&is=69aa5f4b&hm=07de0381c62f490e405a839ddcc16774c3df0b9885f635eb2015b4e11d643367&">
                 <div class="product-info">
-<div class="rating-container">
+<div class="rating-container" id="prod-1">
     <h3>Beri Penilaian Produk 1</h3>
     <div class="stars">
-        <input type="radio" name="star" id="star5" value="5"><label for="star5">★</label>
-        <input type="radio" name="star" id="star4" value="4"><label for="star4">★</label>
-        <input type="radio" name="star" id="star3" value="3"><label for="star3">★</label>
-        <input type="radio" name="star" id="star2" value="2"><label for="star2">★</label>
-        <input type="radio" name="star" id="star1" value="1"><label for="star1">★</label>
+        <input type="radio" name="star-weapon skin" id="weapon skin-s5" value="5"><label for="weapon skin-s5">★</label>
+        <input type="radio" name="star-weapon skin" id="weapon skin-s4" value="4"><label for="weapon skin-s4">★</label>
+        <input type="radio" name="star-weapon skin" id="weapon skin-s3" value="3"><label for="weapon skin-s3">★</label>
+        <input type="radio" name="star-weapon skin" id="weapon skin-s2" value="2"><label for="weapon skin-s2">★</label>
+        <input type="radio" name="star-weapon skin" id="weapon skin-s1" value="1"><label for="weapon skin-s1">★</label>
     </div>
-    
-    <div class="input-group">
-        <input type="text" id="namaUser" placeholder="Masukkan Nama Kamu...">
+    <div class="input-row">
+        <input type="text" id="nama-weapon skin" placeholder="Nama Anda...">
+        <button onclick="kirimRatingWeb('weapon skin')">Kirim</button>
     </div>
-    
-    <button class="btn-kirim" onclick="kirimRatingWeb('p1')">Kirim ke Web & Discord</button>
+    <span class="view-btn" onclick="toggleReviews('reviews-p1')">Lihat Rating Pelanggan</span>
+    <div id="reviews-p1" class="review-box" style="display: none;">
+        <div id="review-list-p1"></div>
+    </div>
 </div>
 
     <div class="rating-input">
-    <input type="radio" name="rating-p1" id="star5-p1" value="5"><label for="star5-p1"><i data-lucide="star"></i></label>
-    <input type="radio" name="rating-p1" id="star4-p1" value="4"><label for="star4-p1"><i data-lucide="star"></i></label>
-    <input type="radio" name="rating-p1" id="star3-p1" value="3"><label for="star3-p1"><i data-lucide="star"></i></label>
-    <input type="radio" name="rating-p1" id="star2-p1" value="2"><label for="star2-p1"><i data-lucide="star"></i></label>
-    <input type="radio" name="rating-p1" id="star1-p1" value="1"><label for="star1-p1"><i data-lucide="star"></i></label>
+    <input type="radio" name="rating-weapon skin" id="star5-weapon skin" value="5"><label for="star5-weapon skin"><i data-lucide="star"></i></label>
+    <input type="radio" name="rating-weapon skin" id="star4-weapon skin" value="4"><label for="star4-weapon skin"><i data-lucide="star"></i></label>
+    <input type="radio" name="rating-weapon skin" id="star3-weapon skin" value="3"><label for="star3-weapon skin"><i data-lucide="star"></i></label>
+    <input type="radio" name="rating-weapon skin" id="star2-weapon skin" value="2"><label for="star2-weapon skin"><i data-lucide="star"></i></label>
+    <input type="radio" name="rating-weapon skin" id="star1-weapon skin" value="1"><label for="star1-weapon skin"><i data-lucide="star"></i></label>
 </div>
 
-<span class="view-rating-btn" onclick="toggleReviews('reviews-p1')">Lihat Rating Pelanggan</span>
-
-<div id="reviews-p1" class="view-rating-list" style="display: none;">
+<div id="reviews-weapon skin" class="view-rating-list" style="display: none;">
     <div id="review-list-p1"></div>
 </div>
                     <h3>Weapon Skins</h3>
@@ -351,35 +351,32 @@
             <div class="product-item">
                 <img src="https://cdn.discordapp.com/attachments/1209446718287122496/1479342746467831839/Picsart_26-03-06_09-14-50-389.jpg?ex=69abb0cb&is=69aa5f4b&hm=c4d2dcd93437c19b32d01b9a60defbdbed319230d3f3b19823cc0570342af62c&">
                 <div class="product-info">
-
-<div class="rating-container">
+<div class="rating-container" id="prod-2">
     <h3>Beri Penilaian Produk 2</h3>
     <div class="stars">
-        <input type="radio" name="star-p2" id="p2-star5" value="5"><label for="p2-star5">★</label>
-        <input type="radio" name="star-p2" id="p2-star4" value="4"><label for="p2-star4">★</label>
-        <input type="radio" name="star-p2" id="p2-star3" value="3"><label for="p2-star3">★</label>
-        <input type="radio" name="star-p2" id="p2-star2" value="2"><label for="p2-star2">★</label>
-        <input type="radio" name="star-p2" id="p2-star1" value="1"><label for="p2-star1">★</label>
+        <input type="radio" name="star-custom clothing" id="custom clothing-s5" value="5"><label for="custom clothing-s5">★</label>
+        <input type="radio" name="star-custom clothing" id="custom clothing-s4" value="4"><label for="custom clothing-s4">★</label>
+        <input type="radio" name="star-custom clothing" id="custom clothing-s3" value="3"><label for="custom clothing-s3">★</label>
+        <input type="radio" name="star-custom clothing" id="custom clothing-s2" value="2"><label for="custom clothing-s2">★</label>
+        <input type="radio" name="star-custom clothing" id="custom clothing-s1" value="1"><label for="custom clothing-s1">★</label>
     </div>
-    
-    <div class="input-group">
-        <input type="text" id="nama-p2" placeholder="Masukkan Nama Kamu...">
+    <div class="input-row">
+        <input type="text" id="nama-p2" placeholder="Nama Anda...">
+        <button onclick="kirimRatingWeb('p2')">Kirim</button>
     </div>
-    
-    <button class="btn-kirim" onclick="kirimRatingWeb('p2')">Kirim ke Web & Discord</button>
+    <span class="view-btn" onclick="toggleReviews('reviews-p2')">Lihat Rating Pelanggan</span>
+    <div id="reviews-p2" class="review-box" style="display: none;">
+        <div id="review-list-p2"></div>
+    </div>
 </div>
-
-<div id="list-rating-p1"></div>
 
     <div class="rating-input">
-    <input type="radio" name="rating-p2" id="star5-p2" value="5"><label for="star5-p2"><i data-lucide="star"></i></label>
-    <input type="radio" name="rating-p2" id="star4-p2" value="4"><label for="star4-p2"><i data-lucide="star"></i></label>
-    <input type="radio" name="rating-p2" id="star3-p2" value="3"><label for="star3-p2"><i data-lucide="star"></i></label>
-    <input type="radio" name="rating-p2" id="star2-p2" value="2"><label for="star2-p2"><i data-lucide="star"></i></label>
-    <input type="radio" name="rating-p2" id="star1-p2" value="1"><label for="star1-p2"><i data-lucide="star"></i></label>
+    <input type="radio" name="rating-custom clothing" id="star5-custom clothing" value="5"><label for="star5-custom clothing"><i data-lucide="star"></i></label>
+    <input type="radio" name="rating-custom clothing" id="star4-custom clothing" value="4"><label for="star4-custom clothing"><i data-lucide="star"></i></label>
+    <input type="radio" name="rating-custom clothing" id="star3-custom clothing" value="3"><label for="star3-custom clothing"><i data-lucide="star"></i></label>
+    <input type="radio" name="rating-custom clothing" id="star2-custom clothing" value="2"><label for="star2-custom clothing"><i data-lucide="star"></i></label>
+    <input type="radio" name="rating-custom clothing" id="star1-custom clothing" value="1"><label for="star1-custom clothing"><i data-lucide="star"></i></label>
 </div>
-
-<span class="view-rating-btn" onclick="toggleReviews('reviews-p2')">Lihat Rating Pelanggan</span>
 
 <div id="reviews-p2" class="view-rating-list" style="display: none;">
     <div id="review-list-p2"></div>
@@ -456,114 +453,91 @@
     </footer>
 
     <script>
-    // 1. CONFIG & INITIALIZATION (Global)
-    const webhookURL = "https://discord.com/api/webhooks/1480267276820283615/fSkCr_7UqQTg-DOTCNF7u-5l7qR6h2hIhjr8G61OX5rPpneray2sqHmq0oeV7IF1bWbD";
-    
-    // Pastikan Firebase sudah di-init sebelumnya di file kamu
-    const database = firebase.database();
+// 1. CONFIGURATION & DATABASE
+const firebaseConfig = {
+    databaseURL: "https://nyostore-rating-default-rtdb.asia-southeast1.firebasedatabase.app"
+};
+const webhookURL = "https://discord.com/api/webhooks/1480267276820283615/fSkCr_7UqQTg-DOTCNF7u-5l7qR6h2hIhjr8G61OX5rPpneray2sqHmq0oeV7IF1bWbD";
 
-    // 2. FUNGSI BAWAAN (Welcome, Menu, FAQ)
-    lucide.createIcons();
+if (!firebase.apps.length) { 
+    firebase.initializeApp(firebaseConfig); 
+}
+const database = firebase.database();
 
-    function enterApp() { 
-        document.getElementById('welcome-screen').classList.add('hide-welcome'); 
+// 2. FUNGSI UI (ENTER STORE & TOGGLE)
+function enterApp() {
+    const welcome = document.getElementById('welcome-screen');
+    if (welcome) {
+        welcome.classList.add('hide-welcome');
+    }
+}
+
+function toggleReviews(id) {
+    const el = document.getElementById(id);
+    if (el) el.style.display = (el.style.display === "none") ? "block" : "none";
+}
+
+// 3. FUNGSI PENGIRIMAN DATA (FIREBASE & DISCORD)
+function kirimRatingWeb(pid) {
+    const nameInput = document.getElementById('nama-' + pid);
+    const starInput = document.querySelector(`input[name="star-${pid}"]:checked`);
+
+    if (!nameInput || nameInput.value.trim() === "" || !starInput) {
+        alert("Lengkapi nama dan rating bintang, Theo!");
+        return;
     }
 
-    function toggleMenu() {
-        document.getElementById('hamburger').classList.toggle('active');
-        document.getElementById('sidebar').classList.toggle('active');
-        document.getElementById('overlay').classList.toggle('active');
-    }
+    const stars = "★".repeat(starInput.value) + "☆".repeat(5 - starInput.value);
 
-    document.querySelectorAll('.faq-item').forEach(item => {
-        item.addEventListener('click', () => { item.classList.toggle('active'); });
+    // Simpan ke Firebase
+    database.ref('ratings/' + pid).push({
+        user: nameInput.value,
+        stars: stars,
+        timestamp: Date.now()
+    }).then(() => {
+        alert("Rating Berhasil!");
+        nameInput.value = ""; 
     });
 
-    // 3. FUNGSI RATING (Satu Fungsi untuk Firebase & Discord)
-    document.addEventListener('change', function(e) {
-        if (e.target.matches('.rating-input input')) {
-            const val = e.target.value;
-            const pid = e.target.name.split('-')[1]; // Mengambil ID Produk
-            const name = prompt("Masukkan nama Anda untuk rating ini:");
-
-            if (name && name.trim() !== "") {
-                let s = "";
-                for(let i=0; i<5; i++) s += i < val ? "★" : "☆";
-
-                // A. Simpan ke Firebase
-                database.ref('ratings/' + pid).push({ 
-                    user: name, 
-                    stars: s,
-                    timestamp: Date.now()
-                });
-
-                // B. Kirim Otomatis ke Discord
-                fetch(webhookURL, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        username: "NYO STORE SYSTEM",
-                        embeds: [{
-                            title: "🌟 TESTIMONI BARU!",
-                            description: "Seseorang baru saja memberikan rating di website.",
-                            color: 16766720, // Warna Gold
-                            fields: [
-                                { name: "Nama Pelanggan", value: name, inline: true },
-                                { name: "Produk ID", value: pid, inline: true },
-                                { name: "Rating", value: s }
-                            ],
-                            footer: { text: "NYO STORE - Feedback Otomatis" },
-                            timestamp: new Date()
-                        }]
-                    })
-                });
-
-                alert("Terima kasih " + name + ", rating terkirim!");
-            } else { 
-                e.target.checked = false; 
-            }
-        }
+    // Kirim ke Discord
+    fetch(webhookURL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            username: "NYO STORE SYSTEM",
+            embeds: [{
+                title: "🌟 TESTIMONI BARU!",
+                fields: [
+                    { name: "Pelanggan", value: nameInput.value, inline: true },
+                    { name: "Produk", value: pid.toUpperCase(), inline: true },
+                    { name: "Rating", value: stars }
+                ]
+            }]
+        })
     });
+}
 
-    // 4. FUNGSI GALLERY TESTIMONI (Modal)
-    const dataTesti = {
-        testi1: ["https://media.discordapp.net/attachments/1209446718287122496/1479457929789837613/Picsart_26-03-06_09-13-15-232.jpg?ex=69ac1c11&is=69aaca91&hm=63a889322345222e588338b45658c8d175c14f3b2e761ae92d92c5703b9dbe59&=&format=webp&width=1521&height=856"],
-        testi2: [
-            "https://media.discordapp.net/attachments/1209446718287122496/1479457930699870218/Picsart_26-03-06_09-14-15-337.jpg?ex=69ac1c11&is=69aaca91&hm=820836d78b0e576490b6b98f083758d78a3c24927fab8e9555724d120664e67f&=&format=webp&width=856&height=856", 
-            "https://media.discordapp.net/attachments/1209446718287122496/1479457931098587309/file_00000000bb307207b17030ae7ca3b382.png?ex=69ac1c11&is=69aaca91&hm=3b27a66ebe406644e83ffe2ca54fe76d0e6917e0670ce9a67cc0e056c2fa32ed&=&format=webp&quality=lossless&width=856&height=856"
-        ],
-        testi3: ["https://i.pinimg.com/736x/58/cf/f4/58cff420183ad4836f4e2892f1e566e9.jpg"]
-    };
+// 4. FUNGSI PENAMPIL DATA (HANYA SATU FUNGSI AGAR TIDAK DOUBLE)
+database.ref('ratings').on('value', (snap) => {
+    const allData = snap.val();
+    if (!allData) return;
 
-    function openModal(id) {
-        const gallery = document.getElementById("testiGallery");
-        if(!gallery) return;
-        gallery.innerHTML = "";
-        if(dataTesti[id]) {
-            dataTesti[id].forEach(url => {
-                const img = document.createElement("img");
-                img.src = url; 
-                img.className = "testi-item-img";
-                img.onclick = () => window.open(url, '_blank');
-                gallery.appendChild(img);
+    ['p1', 'p2'].forEach(pid => {
+        const container = document.getElementById('review-list-' + pid);
+        if (container && allData[pid]) {
+            container.innerHTML = ""; // Bersihkan list agar tidak dobel
+            const items = Object.values(allData[pid]).reverse().slice(0, 5);
+            items.forEach(item => {
+                // Template tampilan review di web
+                container.innerHTML += `
+                    <div style="display:flex; justify-content:space-between; font-size:0.8rem; border-bottom:1px solid rgba(255,255,255,0.1); padding:5px 0;">
+                        <span style="color:#d4af37; font-weight:bold;">${item.user}</span>
+                        <span>${item.stars}</span>
+                    </div>`;
             });
         }
-        document.getElementById("testiModal").style.display = "flex";
-    }
-
-    function closeModal() { 
-        document.getElementById("testiModal").style.display = "none"; 
-    }
-
-    // Menutup modal jika klik di luar gambar
-    window.onclick = (e) => { 
-        if (e.target.id === "testiModal") closeModal(); 
-    }
-
-    function toggleReviews(id) {
-        const x = document.getElementById(id);
-        if(x) x.style.display = (x.style.display === "none") ? "block" : "none";
-    }
+    });
+});
 </script>
 </body>
 </html>
